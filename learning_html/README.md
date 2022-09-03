@@ -3,8 +3,8 @@
 ## HTML Tag
 
 - ‘여기부터 여기까지가 제목이야’ 라고 말해주는 것이 HTML Tag라고 한다.
-- <h1> text </h1> 이 두 태그 사이에 넣는 내용이 무언가가 된다.
-- <h1> 태그를 열어 준 것이고, </h1> /가 있으면 태그를 닫아준 것이다.
+- `<h1> text </h1>` 이 두 태그 사이에 넣는 내용이 무언가가 된다.
+- `<h1>` 태그를 열어 준 것이고, `</h1>` /가 있으면 태그를 닫아준 것이다.
 - 아무 의미가 없는 태그를 적어도 되지만 브라우저에서 원하는 대로 작동은 안된다.
 
 ### h1(header number 1)
@@ -47,35 +47,35 @@ img 태그는 self-closing tag(자체 닫기 태그)이다
 
 `<html>` → html 태그 사이에 넣는게 html 코드가 된다.
 
-`lang` → 구글, 네이버, bing 같은 검색엔진에게 우리 사이트가 사용되는 언어가 무엇인지 알려준다.
+    `lang` → 구글, 네이버, bing 같은 검색엔진에게 우리 사이트가 사용되는 언어가 무엇인지 알려준다.
 
 `<head>` → head 태그는 웹사이트의 외부적으로 보이지 않는 환경을 설정한다.
 
-`<title>` → 페이지의 제목을 설정해주는 태그
+    `<title>` → 페이지의 제목을 설정해주는 태그
 
-`<meta>` → 부가적인 정보를 제공해주는 태그 (content, name attribute를 가짐)
+    `<meta>` → 부가적인 정보를 제공해주는 태그 (content, name attribute를 가짐)
 
-`name` → description 을 사용하면 검색했을때 우리 사이트의 대한 설명 부분을 보여준다. 내용은 content에서 작성한 것으로 보여짐.
+      `name` → description 을 사용하면 검색했을때 우리 사이트의 대한 설명 부분을 보여준다. 내용은 content에서 작성한 것으로 보여짐.
 
-`content` → 설명 내용을 적어주는 곳.
+      `content` → 설명 내용을 적어주는 곳.
 
-`<meta charset="utf-8"/>` → 브라우저에게 text를 어떻게 그려달라는지 말해주는 부분
+    `<meta charset="utf-8"/>` → 브라우저에게 text를 어떻게 그려달라는지 말해주는 부분
 
-`<meta property="og : 입력">` → og(open graph) : ~~ 로 하는 것은 카카오톡으로 링크 공유했을 때 최적화된 데이터로 가지고 갈 수 있도록 설정하는 것 (og : ~~ 네이버 , 카카오톡 / fb : ~~ 페이스북 / twitter : ~~ 트위터 등등등)
+    `<meta property="og : 입력">` → og(open graph) : ~~ 로 하는 것은 카카오톡으로 링크 공유했을 때 최적화된 데이터로 가지고 갈 수 있도록 설정하는 것 (og : ~~ 네이버 , 카카오톡 / fb : ~~ 페이스북 / twitter : ~~ 트위터 등등등)
 
-`og : title` → 공유됐을 때 보여지는 제목
+      `og : title` → 공유됐을 때 보여지는 제목
 
-`og : description` → 공유됐을 때 보여지는 설명내용
+      `og : description` → 공유됐을 때 보여지는 설명내용
 
-`og : image` → 공유됐을 때 보여지는 이미지
+      `og : image` → 공유됐을 때 보여지는 이미지
 
-`<link>`
+    `<link>`
 
-`rel` → relationship의 줄임말로 shortcut icon 을 입력해주면 title의 아이콘을 가리킨다.
+      `rel` → relationship의 줄임말로 shortcut icon 을 입력해주면   title의 아이콘을 가리킨다.
 
-`sizes` → 아이콘 사이즈 결정
+      `sizes` → 아이콘 사이즈 결정
 
-`href` → 아이콘 경로 설정
+      `href` → 아이콘 경로 설정
 
 `<body>` → body 태그는 사용자가 볼 수 있는 content를 보여준다.
 
@@ -107,7 +107,9 @@ label은 input과 함께 사용해야한다.
 
 `for` → input의 `id` 와 동일한 값이여야 한다.
 
-## id - 태그는 하나의 값만 가질 수 있다, id 값은 고유해야한다.
+## id
+
+태그는 하나의 값만 가질 수 있다, id 값은 고유해야한다.
 
 ## 시멘틱태그(semantic tag)
 
@@ -128,4 +130,9 @@ label은 input과 함께 사용해야한다.
 
 ## 총 정리한 코드
 
-[https://codepen.io/taemin-jang/pen/eYrYWBr](https://codepen.io/taemin-jang/pen/eYrYWBr)
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYrYWBr" data-user="taemin-jang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/taemin-jang/pen/eYrYWBr">
+  html_practice</a> by Taemin Jang (<a href="https://codepen.io/taemin-jang">@taemin-jang</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
