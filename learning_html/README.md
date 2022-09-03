@@ -130,9 +130,4 @@ label은 input과 함께 사용해야한다.
 
 ## 총 정리한 코드
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYrYWBr" data-user="taemin-jang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/taemin-jang/pen/eYrYWBr">
-  html_practice</a> by Taemin Jang (<a href="https://codepen.io/taemin-jang">@taemin-jang</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+[https://codepen.io/taemin-jang/pen/eYrYWBr](https://codepen.io/taemin-jang/pen/eYrYWBr)
