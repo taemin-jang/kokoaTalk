@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <style>
+      a {
+        color: wheat;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+        transition: all 5s ease-in-out;
+      }
+
+      a:hover {
+        color: tomato;
+        background-color: wheat;
+      }
+
+      .jb {
+        box-sizing: border-box;
+        width: 16px;
+        height: 16px;
+        margin: 10px 0px;
+        background-color: orange;
+        transition-property: all;
+        transition-duration: 4s;
+      }
+      input {
+        display: block;
+      }
+      input:checked ~ .jb {
+        width: 100%;
+      }
+      .jb1 {
+        transition-timing-function: ease;
+      }
+      .jb2 {
+        transition-timing-function: linear;
+      }
+      .jb3 {
+        transition-timing-function: ease-in;
+      }
+      .jb4 {
+        transition-timing-function: ease-out;
+      }
+      .jb5 {
+        transition-timing-function: ease-in-out;
+      }
+      .jb6 {
+        transition-timing-function: step-start;
+      }
+      .jb7 {
+        transition-timing-function: step-end;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Go Home</a>
+
+    <input type="checkbox" />
+
+    <p>ease</p>
+    <div class="jb jb1"></div>
+    <p>linear</p>
+    <div class="jb jb2"></div>
+    <p>ease-in</p>
+    <div class="jb jb3"></div>
+    <p>ease-out</p>
+    <div class="jb jb4"></div>
+    <p>ease-in-out</p>
+    <div class="jb jb5"></div>
+    <p>step-start</p>
+    <div class="jb jb6"></div>
+    <p>step-end</p>
+    <div class="jb jb7"></div>
+  </body>
+</html>
