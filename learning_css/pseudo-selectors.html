@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+
+      div {
+        width: 300px;
+        height: 300px;
+        color: white;
+        background-color: wheat;
+        position: relative;
+      }
+      div:first-child {
+        background-color: tomato;
+      }
+      div:last-child {
+        background-color: teal;
+      }
+      span {
+        background-color: aqua;
+        color: black;
+      }
+      span:nth-child(even) {
+        background-color: teal;
+      }
+      p span {
+        background-color: yellow;
+      }
+      p + span {
+        text-decoration: underline;
+      }
+
+      input:required {
+        border: 1px solid tomato;
+      }
+
+      input:optional {
+        border: 1px solid blue;
+      }
+
+      input[type="password"] {
+        background-color: aqua;
+      }
+
+      input[placeholder~="name"] {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>adfdfafsdfsdf<span>hello</span></p>
+      <span>hello</span>
+      <span>hello</span>
+      <span>hello</span>
+      <span>hello</span>
+      <span>hello</span>
+      <span>hello</span>
+    </div>
+    <div>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="password" placeholder="password" required />
+      </form>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>
