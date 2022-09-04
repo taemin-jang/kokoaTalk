@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button:hover {
+        background-color: tomato;
+      }
+
+      button:active {
+        background-color: aqua;
+      }
+
+      button:focus {
+        background-color: pink;
+      }
+
+      input:focus {
+        background-color: pink;
+      }
+
+      a:visited {
+        color: red;
+      }
+
+      form {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 20px;
+      }
+
+      form:focus-within {
+        border-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button>button</button>
+      <a href="http://www.google.com">go to google</a>
+    </div>
+    <div>
+      <form>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </form>
+    </div>
+  </body>
+</html>
